@@ -32,3 +32,7 @@ Route::get('/success', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/signup', function () {
+    return view('signup');
+})->name('signup');
